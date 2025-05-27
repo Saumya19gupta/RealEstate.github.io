@@ -198,7 +198,7 @@ export default function SlidePage() {
   };
 
   return (
-    <div className="p-6 md:p-10 bg-gray-100 rounded-xl shadow-md">
+    <div className="px-4 md:px-12 lg:px-20 py-12  bg-gray-100 rounded-xl shadow-md">
       <motion.h2
         className="text-2xl md:text-3xl font-bold mb-6 text-center text-gray-800"
         initial={{ opacity: 0, y: -20 }}

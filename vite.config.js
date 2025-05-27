@@ -10,6 +10,8 @@ import path from 'path';
 export default defineConfig({
   plugins: [tailwindcss(), react()],
 
+  base: "/AKDream.github.io"
+
   // resolve: {
   //   alias: {
   //     '@': path.resolve(__dirname, './src'), // enables "@/components" usage

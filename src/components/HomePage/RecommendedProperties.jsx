@@ -358,7 +358,7 @@ const sellingProperties = [
 
 const TopSellingProperties = () => {
   return (
-    <section className="p-4 md:p-8 bg-gray-100">
+    <section className=" bg-gray-100 px-4 md:px-12 lg:px-20 py-12 ">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -371,7 +371,7 @@ const TopSellingProperties = () => {
           </div>
           <Link
             to="/top-selling"
-            className="bg-white text-purple-700 px-3 py-1 rounded-md font-semibold hover:bg-purple-100 transition duration-300"
+            className="bg-white text-purple-700  px-3 py-1 rounded-md font-semibold hover:bg-purple-100 transition duration-300"
           >
             View All Sales
           </Link>

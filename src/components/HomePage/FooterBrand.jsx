@@ -58,7 +58,7 @@ const FooterBrand = () => {
   const [activeTab, setActiveTab] = useState("REAL ESTATE");
 
   return (
-    <footer className="bg-gray-900 text-white text-sm">
+    <footer className="bg-gray-900  text-white text-sm px-4 md:px-12 lg:px-20 py-12 ">
       {/* Brand Section */}
       {/* <div className="bg-[#1a1a1a] py-4 text-center">
         <p className="text-gray-400 text-sm">Our Brands</p>
@@ -68,7 +68,7 @@ const FooterBrand = () => {
       </div> */}
 
       {/* REA Group Section */}
-      <div className="bg-white py-6 flex justify-center items-center">
+      <div className="bg-white py-6 flex justify-center items-center px-4 md:px-12 lg:px-20 ">
         <p className="text-black text-base md:text-lg font-medium flex items-center gap-2">
           Part of 
           {/* <img src= {Image2} alt="REA Group" className="h-6 md:h-7" /> */}

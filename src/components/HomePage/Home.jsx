@@ -448,8 +448,8 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-800 to-purple-900 text-white flex items-center">
-      <div className="container mx-auto px-6 py-12 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+    <div className=" bg-gradient-to-r from-purple-800 to-purple-900 text-white flex items-center">
+      <div className="container mx-auto px-4 md:px-12 lg:px-20 py-12 grid md:grid-cols-2 gap-70 items-center">
         
         {/* Hero Text Section */}
         <motion.div {...fadeUp(0)}>
@@ -520,7 +520,7 @@ const Home = () => {
           <img
             src={Image1}
             alt="Couple Looking Out the Window"
-            className="rounded-2xl shadow-2xl max-w-md w-full mx-auto md:mx-0"
+            className="rounded-2xl shadow-2xl max-w-md w-full h-90 mx-auto md:mx-0"
           />
         </motion.div>
       </div>

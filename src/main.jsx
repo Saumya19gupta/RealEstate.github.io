@@ -6,6 +6,9 @@ import HomePage from './components/HomePage/HomePage.jsx'
 import Footer from './components/Footer.jsx'
 import Header from './components/Header.jsx'
 import { BrowserRouter } from "react-router-dom";
+// import HomePage from './components/HomePage/HomePage.jsx'
+
+// import HomePage from './components/HomePage/HomePage.jsx'
 
 import TopCategories from './components/TopCategories/TopCategories.jsx';
 
@@ -18,7 +21,9 @@ createRoot(document.getElementById('root')).render(
     {/* <App /> */}
     {/* <HomePage /> */}
     {/* <Header /> */}
+    {/* <HomePage /> */}
     <App />
+    {/* <HomePage /> */}
    <Footer /> 
 
    {/* <TopCategories /> */}

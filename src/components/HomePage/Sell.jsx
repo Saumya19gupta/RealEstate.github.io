@@ -482,7 +482,7 @@ const SellPropertyLanding = () => {
 
   return (
     <motion.div
-      className="bg-white min-h-screen flex flex-col justify-center items-center px-4 py-12 text-blue-900"
+      className="bg-white flex flex-col justify-center items-center px-4 md:px-12 lg:px-20 py-12  text-blue-900"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}

@@ -440,9 +440,9 @@ export default function Footer() {
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="bg-gray-900 text-gray-200 py-10 px-4"
+      className="bg-gray-900 text-gray-200 px-4 md:px-12 lg:px-20 py-12 "
     >
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-9xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-30">
         {/* About */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">About Real Estate</h3>
@@ -519,7 +519,7 @@ export default function Footer() {
           </div>
           <div className="text-sm flex items-center gap-2">
             <FaMapMarkerAlt className="text-blue-400" />
-            <span>123 Estate Lane, New Delhi, India</span>
+            <span>123 CP, New Delhi, India</span>
           </div>
 
           {/* Social Icons */}

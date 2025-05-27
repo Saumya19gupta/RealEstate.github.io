@@ -488,8 +488,8 @@ const Header = () => {
 
 
   return (
-    <header className="bg-gradient-to-r from-purple-800 to-purple-900 text-white py-3 px-4 shadow-md transition-all duration-500 ease-in-out">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+    <header className="bg-gradient-to-r px-4 md:px-12 lg:px-20 py-12 from-purple-800 to-purple-900 text-white shadow-md transition-all duration-500 ease-in-out">
+      <div className="max-w-9xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 text-lg font-bold hover:scale-105 transition-transform duration-300">
           <img src={logo} alt="Logo" className="h-6" />
@@ -508,9 +508,8 @@ const Header = () => {
             Post Property <span className="text-pink-600 font-bold italic">FREE</span>
           </Link> */}
 
-          <Link to="/newsignup" className="bg-white text-purple-700 px-3 py-1 rounded-md font-semibold hover:bg-purple-100 transition duration-300">
-            About Us
-          </Link>
+         
+         
 
           <Link to="/list-your-property" className="bg-white text-purple-700 px-3 py-1 rounded-md font-semibold hover:bg-purple-100 transition duration-300">
             Post Property <span className="text-pink-600 font-bold italic">FREE</span>

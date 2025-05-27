@@ -128,7 +128,7 @@ const Categories = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-gradient-to-tr from-slate-100 to-white py-16 px-6 md:px-20">
+    <div className=" bg-gradient-to-tr from-slate-100 to-white px-4 md:px-12 lg:px-20 py-12">
       <motion.h1
         className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-6"
         initial={{ opacity: 0, y: -30 }}
